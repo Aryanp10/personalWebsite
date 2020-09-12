@@ -7,13 +7,23 @@ h1{
 /* .img-logo {
     display: none;
 } */
+
+
+
 .img-logo {
-    width: 50%;
+    /* width: 50%;
     padding-right: 30px;
     float: right;
     margin:0 0 40px 45px;
     max-width: 300px;
-    max-height: 500px;
+    max-height: 500px; */
+
+    width: 28%;
+    padding-right: 0 20px 0 20px;
+    float: right;
+    margin:20px;
+    /* max-width: 300px;
+    max-height: 500px; */
 }
 .space{
   line-height: 1.5;
@@ -39,7 +49,7 @@ li{
   display: block;
   color: #3D405B;
   font-weight: bold;
-  font-family: "American Typewriter", cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
   width: 218px;
   padding: 16px;
@@ -51,10 +61,8 @@ li{
 }
 
 #introduction{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 150px;
-  margin-left: 230px;
+  margin: 0 auto;
+  width: 60%;
   color:black
 }
 
@@ -130,10 +138,32 @@ li{
     background-color: #3b5999;
 }
 
-@media only screen and (max-width: 600px){
-  .img-logo{
-    width: 28%;
-    padding: 0 20px 0 20px;
-    margin:20px;
+@media only screen and (max-width: 768px){
+  .img-logo {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+  #mainMenu {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 72.5%;
+    text-align: center;
+    padding: 0;
+    overflow:auto;
+    background-color: #81B29A;
+  }
+  #mainMenu a{
+    display: block;
+    color: #3D405B;
+    font-weight: bold;
+    font-family: "American Typewriter", cursive, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 16px;
+    text-decoration: none;
+  }
+  #mainMenu a:hover {
+    color: #999
   }
 }
