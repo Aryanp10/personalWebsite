@@ -16,7 +16,10 @@ h1{
     max-height: 500px;
 
 }
-
+.space{
+  line-height: 1.5;
+  padding-bottom: 15px
+}
 
 ol,ul {
 	list-style: none;
@@ -37,7 +40,7 @@ li{
   display: block;
   color: #3D405B;
   font-weight: bold;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "American Typewriter", cursive, sans-serif;
   text-align: center;
   width: 218px;
   padding: 16px;
