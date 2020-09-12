@@ -14,7 +14,6 @@ h1{
     margin:0 0 40px 45px;
     max-width: 300px;
     max-height: 500px;
-
 }
 .space{
   line-height: 1.5;
@@ -129,4 +128,12 @@ li{
 }
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #3b5999;
+}
+
+@media only screen and (max-width: 600px){
+  .img-logo{
+    width: 28%;
+    padding: 0 20px 0 20px;
+    margin:20px;
+  }
 }
